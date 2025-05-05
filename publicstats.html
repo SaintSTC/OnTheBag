@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- DEVELOPER: Sean Carney, IS117-002, Spring 2025 -->
+
+<head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <title> On The Bag</title>
+    <link rel="shortcut icon" href="images/icon.png">
+    <link rel="stylesheet" href="styles/rsw.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <link href="IS117-BootstrapStarterFilesV5/css/" rel="stylesheet" >
+    <link href="IS117-BootstrapStarterFilesV5/css/main.css" rel="stylesheet" >
+    <link href="IS117-BootstrapStarterFilesV5/css/bootstrap.css" rel="stylesheet" >
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/Header_icon.png" alt="On the Bag Logo" height="160"></a>
+        <h1>On The Bag</h1>
+        <h3> Your Online Caddie</h3>
+    </header>
+    <nav class="navbar navbar-expand-md" style="background-color: #1D6830">
+        <div class="container">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item span4">
+                        <a href="index.html" class="nav-link" style="color: yellow" >Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="aboutus.html" class="nav-link" style="color: yellow">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #FF3D3D">
+                        <b>Public</b>
+                        </a>
+                        <ul class="dropdown-menu" style="background-color: #1D6830" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" style="color: yellow" href="publicreviews.html">Reviews</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item active" aria-current="page" style="color: #FF3D3D" href="publicstats.html"><b>Stats and Ratings</b></a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" style="color: yellow" href="publicwebsites.html">Course Websites</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: yellow">
+                        Private
+                        </a>
+                        <ul class="dropdown-menu" style="background-color: #1D6830" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" style="color: yellow" href="privatereviews.html">Reviews</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" style="color: yellow" href="privatestats.html">Stats and Ratings</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" style="color: yellow" href="privatewebsites.html">Course Websites</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link" style="color: yellow">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+	</nav>
+    <main style="background-color: #C6C6B3;">
+        <h1>North Jersey Public Course Statistics and Ratings</h1>
+        <h6>*All statistics are given from the Mens Back Tees (commonly Blue)</h6>
+        <table class="table table-striped table-primary">
+            <thead>
+                <tr >
+                    <th scope="col">Course</th>
+                    <th scope="col">Course Image</th>
+                    <th scope="col">Statistics</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row" style="padding-top: 55px;">Hendricks Field<br>Golf Club</th>
+                    <td><img src="images/coursepictures/hendricks.jpg" alt="Hendricks Field warmup area"></td>
+                    <td style="padding-top: 30px;">
+                        <b>Par:</b> 70<br>
+                        <b>Yardage:</b> 6150<br>
+                        <b>Rating:</b> 69.2<br>
+                        <b>Slope:</b> 123<br>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 55px; color: #C6C6B3;">Francis Bryne<br>Golf Club</th>
+                    <td><img src="images/coursepictures/bryne.png" alt="Francis Bryne hole 17"></td>
+                    <td style="padding-top: 30px; color: #C6C6B3;">
+                        <b>Par:</b> 70<br>
+                        <b>Yardage:</b>6549 <br>
+                        <b>Rating:</b>72.9 <br>
+                        <b>Slope:</b> 137<br>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 55px;">Preakness Valley<br>East</th>
+                    <td><img src="images/coursepictures/preakness_E.png" alt="Preakness Valley East hole 10"></td>
+                    <td style="padding-top: 30px;">
+                        <b>Par:</b> 70<br>
+                        <b>Yardage:</b> 5831<br>
+                        <b>Rating:</b> 68.5<br>
+                        <b>Slope:</b> 122<br>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 55px; color: #C6C6B3;">Preakness Valley<br>West</th>
+                    <td><img src="images/coursepictures/preakness_W.png" alt="Preakness Valley West hole 12"></td>
+                    <td style="padding-top: 30px; color: #C6C6B3;">
+                        <b>Par:</b> 70<br>
+                        <b>Yardage:</b> 6237<br>
+                        <b>Rating:</b> 70.3<br>
+                        <b>Slope:</b> 126<br>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 55px;">Flanders<br>Blue / White</th>
+                    <td><img src="images/coursepictures/flanders_B.png" alt="Flanders Valley Blue hole 9"></td>
+                    <td style="padding-top: 30px;">
+                        <b>Par:</b> 72<br>
+                        <b>Yardage:</b> 6765<br>
+                        <b>Rating:</b> 72.7<br>
+                        <b>Slope:</b> 127<br>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" style="padding-top: 55px; color: #C6C6B3;">Flanders<br>Gold / Red</th>
+                    <td><img src="images/coursepictures/flanders_R.png" alt="Flanders Valley Red hole 6"></td>
+                    <td style="padding-top: 30px; color: #C6C6B3;">
+                        <b>Par:</b> 72<br>
+                        <b>Yardage:</b> 6601<br>
+                        <b>Rating:</b> 72.0<br>
+                        <b>Slope:</b> 131<br>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h5 style="text-align: center;">More courses to come!</h5> 
+    </main>    
+    <footer>
+		<p>&copy; April 27, 2025; Sean Carney; Verona N.J.</N></p>
+	</footer>
+</body>

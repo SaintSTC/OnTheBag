@@ -1,0 +1,45 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+.table-primary {
+    text-align: center;
+    color: var(--bs-biege) !important;
+    --bs-table-bg: var(--bs-primary-light);
+    --bs-table-striped-bg: var(--bs-biege);
+    --bs-table-striped-color: var(--bs-primary);
+    --bs-table-active-bg: var(--bs-primary);
+    --bs-table-active-color: var(--bs-biege);
+    --bs-table-hover-bg: var(--bs-red);
+    --bs-table-hover-color: var(--bs-biege);
+    border-color: var(--bs-primary);
+  }
+
+main h1 {
+    padding: 10px;
+    color: var(--OTBRed);
+    text-shadow: -1px -1px 0 var(--OTBYellow), 1px -1px 0 var(--OTBYellow), -1px 1px 0 var(--OTBYellow), 1px 1px 0 var(--OTBYellow);
+}
+
+ main h5 {
+    margin-bottom: 0rem !important;
+    padding-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* footer css*/
+footer {
+	background-color: var(--OTBGreen);
+	text-align: center;
+	color: white;
+	padding-top: 1em;
+}

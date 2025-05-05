@@ -1,0 +1,181 @@
+:root {
+	--OTBGreen: #1D6830;
+}
+:root {
+	--OTBWhite: #FFFFFF;
+}
+:root {
+	--OTBBlack: #000000;
+}
+:root {
+	--OTBBiege: #C6C6B3;
+}
+:root {
+	--OTBRed: #FF3D3D;
+}
+:root {
+	--OTBYellow: yellow;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: var(--OTBWhite);
+    border: 2px solid var(--OTBRed);
+}
+/*css for the header*/
+header img {
+	float: left;
+    padding: 0;
+    padding-right: 20px;
+    height: 160 px;
+}
+header {
+    height: 160px;
+    padding: 0px;
+    color: var(--OTBRed);
+    background-color: var(--OTBGreen);
+}
+header h1{
+    padding: 5px;
+    padding-top: 30px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 400%;
+    text-shadow: -1px -1px 0 var(--OTBYellow), 1px -1px 0 var(--OTBYellow), -1px 1px 0 var(--OTBYellow), 1px 1px 0 var(--OTBYellow);
+
+
+}
+header h3{
+    font-family: URW Chancery L, cursive;	
+    font-size: 150%;
+    text-shadow: -1px -1px 0 var(--OTBYellow), 1px -1px 0 var(--OTBYellow), -1px 1px 0 var(--OTBYellow), 1px 1px 0 var(--OTBYellow);
+}
+/*css for nav bar */
+nav_menu {
+    background-color: var(--OTBBlack);
+}
+nav_menu ul li{
+	width: 20%;
+	text-align: center;
+	list-style-type: none;
+	float: left;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: var(--OTBGreen);
+	position: relative;
+    font-weight: bold;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+nav_menu .nav {
+    color: var(--OTBYellow);
+}
+nav_menu a {
+	text-decoration: none;
+	color: var(--OTBYellow);
+	font-weight: bold;
+}
+nav_menu .current {
+    background-color: var(--OTBYellow);
+}
+nav_menu .current a {
+    color: var(--OTBRed);
+}
+nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%
+}
+nav_menu ul ul li {
+	float: none;
+}
+nav_menu ul li:hover > ul {
+	display: block;
+    width: 500%;
+}
+nav_menu > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/* css for the main*/
+main {
+    background-color: var(--OTBBiege);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+main h1 {
+    clear: both;
+    padding: 10px;
+    color: var(--OTBRed);
+    text-shadow: -1px -1px 0 var(--OTBYellow), 1px -1px 0 var(--OTBYellow), -1px 1px 0 var(--OTBYellow), 1px 1px 0 var(--OTBYellow);
+}
+#meet {
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 150%;
+    color: var(--OTBRed);
+    text-shadow: -1px -1px 0 var(--OTBYellow), 1px -1px 0 var(--OTBYellow), -1px 1px 0 var(--OTBYellow), 1px 1px 0 var(--OTBYellow);
+}
+#SeanCarney {
+    padding: 10px;
+    font-size: 100%;
+    color: var(--OTBRed);
+    text-shadow: -1px -1px 0 var(--OTBYellow), 1px -1px 0 var(--OTBYellow), -1px 1px 0 var(--OTBYellow), 1px 1px 0 var(--OTBYellow);
+}
+main > p {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-indent: 10px;
+    line-height: 1.6;
+}
+.para {
+    clear: both;
+}
+/*aside css*/
+aside{
+    padding-left: 2%;
+    width: 20%;
+    float: left;
+    padding-right: 2%;
+    border-right: 2px solid var(--OTBRed);
+}
+aside img{
+    width: 100%;
+    height: 200%;
+    border-radius: 50%;
+}
+/*section css*/
+section {
+    float: left;
+    width: 69%
+}
+section p {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-indent: 10px;
+    line-height: 1.6;
+}
+main h5 {
+    clear: both;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+/* footer css*/
+footer {
+    background-color: var(--OTBGreen);
+	text-align: center;
+	color: white;
+	padding: 1em 0;
+    margin: 0;
+}

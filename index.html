@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- DEVELOPER: Sean Carney, IS117-002, Spring 2025 -->
 
+<head>
+    <meta charset="utf-8">
+    <title> On The Bag</title>
+    <link rel="shortcut icon" href="images/icon.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <link href="IS117-BootstrapStarterFilesV5/css/" rel="stylesheet" >
+    <link href="IS117-BootstrapStarterFilesV5/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/Header_icon.png" alt="On the Bag Logo" height="160"></a>
+        <h1>On The Bag</h1>
+        <h3> Your Online Caddie</h3>
+    </header>
+    <nav class="navbar navbar-expand-md" style="background-color: #1D6830">
+        <div class="container">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item span4">
+                        <a href="#" class="nav-link active " style="color: #FF3D3D" aria-current="page"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="aboutus.html" class="nav-link" style="color: yellow">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: yellow">
+                        Public
+                        </a>
+                        <ul class="dropdown-menu" style="background-color: #1D6830" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" style="color: yellow" href="publicreviews.html">Reviews</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" style="color: yellow" href="publicstats.html">Stats and Ratings</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" style="color: yellow" href="publicwebsites.html">Course Websites</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: yellow">
+                        Private
+                        </a>
+                        <ul class="dropdown-menu" style="background-color: #1D6830" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" style="color: yellow" href="privatereviews.html">Reviews</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" style="color: yellow" href="privatestats.html">Stats and Ratings</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" style="color: yellow" href="privatewebsites.html">Course Websites</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link" style="color: yellow">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+	</nav>
+    <main>
+        <h1>Stories of the Week</h1>
+        <div class="card" style="background-color: #1D6830;">
+            <a href="https://www.espn.com/golf/story/_/id/44662310/rory-mcilroy-wins-masters-playoff-earn-career-grand-slam" target="_blank"><img src="images/rory.jpg" alt="Rory collapses on 18"></a>
+            <div class="card-body">
+                <p class="card-text" style="font-size: 125%; padding-top: 0%; color: #000000;"><b> After 11 years, Rory Finally Completes the Grand Slam</b></p>
+            </div>
+        </div>
+        <div class="card" style="background-color: #1D6830;">
+            <a href="https://www.ncaa.com/news/golf-men/article/2025-04-25/2025-ncaa-dii-mens-golf-championship-selection-info-qualifiers-schedule" target="_blank"><img src="images/D2.jpg" alt="Division 2 Golf"></a>
+            <div class="card-body">
+                <p class="card-text" style="font-size: 125%; padding-top: 0%; color: #000000;"><b>2025 NCAA DII Men's Golf Championship</b></p>
+            </div>
+        </div>
+        <div class="card" style="background-color: #1D6830;">
+            <a href="https://www.golfdigest.com/story/golf-ball-hot-list" target="_blank"><img src="images/puzzlegolf.png" alt="Puzzle golf ball"></a>
+            <div class="card-body">
+                <p class="card-text" style="font-size: 125%; padding-top: 0%; color: #000000;"><b>The Best New Golf Balls of 2025</b></p>
+            </div>
+        </div>
+        <h1>Creator Content</h1>
+        <div class="card" style="background-color: #1D6830;">
+            <a href="https://www.youtube.com/watch?v=MtVWAPCwB38&pp=ygUQZ29sZiB0aWdlciB3b29kc9IHCQmECQGHKiGM7w%3D%3D" target="_blank"><img src="images/TigerNelly.jpg" alt="Tiger Woods and Nelly Korda"></a>
+            <div class="card-body">
+                <p class="card-text" style="font-size: 125%; padding-top: 0%; color: #000000;"><b>Tiger and Nelly: Score From Inside 100 Yards</b></p>
+            </div>
+        </div>
+        <div class="card" style="background-color: #1D6830;">
+            <a href="https://www.youtube.com/watch?v=JKdKKB-VxWE" target="_blank"><img src="images/paige.jpg" alt="Paige Sparanic Learn to Putt"></a>
+            <div class="card-body">
+                <p class="card-text" style="font-size: 125%; padding-top: 0%; color: #000000;"><b>How to Putt ⛳️The COMPLETE Putting Guide</b></p>
+            </div>
+        </div>
+        <div class="card" style="background-color: #1D6830;">
+            <a href="https://www.youtube.com/watch?v=9oMKpqxUyFY" target="_blank"><img src="images/grant.jpg" alt="Grant Horvat and Eric Cogorno"></a>
+            <div class="card-body">
+                <p class="card-text" style="font-size: 125%; padding-top: 0%; color: #000000;"><b>Iron Swing Vs. Driver Swing (The Difference) </b></p>
+            </div>
+        </div>
+        <h1>External Tools</h1>
+        <div class="card" style="background-color: #1D6830;">
+            <a href="https://www.cbssports.com/golf/" target="_blank"><img src="images/golfCBS.png" alt="Golf ball logo"></a>
+            <div class="card-body">
+                <p class="card-text" style="font-size: 125%; padding-top: 0%; color: #000000;"><b> CBS sports Golf </b></p>
+            </div>
+        </div>
+        <div class="card" style="background-color: #1D6830;">
+            <a href="https://www.youtube.com/channel/UCkMOtD7MMYs1H55XH6CkWEw" target="_blank"><img src="images/GD.png" alt="Golf Digest Logo"></a>
+            <div class="card-body">
+                <p class="card-text" style="font-size: 125%; padding-top: 0%; color: #000000;"><b>Golf Digest Youtube</b></p>
+            </div>
+        </div>
+        <div class="card" style="background-color: #1D6830;">
+            <a href="https://www.golfnow.com/" target="_blank"><img src="images/GolfNow.png" alt="Golf Now Logo"></a>
+            <div class="card-body">
+                <p class="card-text" style="font-size: 125%; padding-top: 0%; color: #000000;"><b>Golf Now</b></p>
+            </div>
+        </div>
+        <h5>Want your content featured? Let us know in the contact tab! </h5>
+    </main>
+    <footer>
+		<p>&copy; April 27, 2025; Sean Carney; Verona N.J.</N></p>
+	</footer>
+</body>
