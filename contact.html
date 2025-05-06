@@ -12,6 +12,7 @@
         <link href="IS117-BootstrapStarterFilesV5/css/" rel="stylesheet" >
         <link href="IS117-BootstrapStarterFilesV5/css/main.css" rel="stylesheet" >
         <link href="IS117-BootstrapStarterFilesV5/css/bootstrap.css" rel="stylesheet" >
+        <link href="styles/contact.css" rel="stylesheet" >
     </head>
 
 <body>
@@ -55,7 +56,7 @@
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" style="color: yellow" href="privatestats.html">Stats and Ratings</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item active" style="color: yellow" aria-current="page" href="privatewebsites.html">Course Websites</a></li>
+                        <li><a class="dropdown-item" style="color: yellow" aria-current="page" href="privatewebsites.html">Course Websites</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -65,7 +66,34 @@
             </div>
         </div>
 	</nav>
+    <main>
+        <h2> Wanted to contact us? Do so here!</h2>
+        <div class="container-contact">
+            <form action="action_page.php">
+          
+              <label for="name">Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name">
 
+              <label for="emial">Email Address</label>
+              <input type="text" id="email" name="emial" placeholder="email@address.com">
+          
+              <label for="state">State</label>
+              <select id="state" name="state">
+                <option value="New Jersey">New Jersey</option>
+                <option value="New York">New York</option>
+                <option value="Pennsylvannia">Pennsylvannia</option>
+                <option value="Connecticut">Connecticut</option>
+                <option value="Delaware">Delaware (fake state)</option>
+                <option value="Other">Other</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
     <footer>
 		<p>&copy; April 27, 2025; Sean Carney; Verona N.J.</N></p>
 	</footer>
