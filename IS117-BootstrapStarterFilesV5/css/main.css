@@ -10,6 +10,19 @@
     font-size: 0.5rem;
 }
 
+.nav-item {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.navbar-brand {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: #FF3D3D;
+    font-size: 200% !important;
+    text-shadow: -1px -1px 0 var(--OTBYellow), 1px -1px 0 var(--OTBYellow), -1px 1px 0 var(--OTBYellow), 1px 1px 0 var(--OTBYellow);
+}
+
+
 .table-primary {
     text-align: center;
     color: var(--bs-biege) !important;
